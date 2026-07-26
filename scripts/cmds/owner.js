@@ -5,7 +5,7 @@ module.exports = {
     name: "owner",
     aliases: ["admininfo", "info", "ownerinfo"],
     version: "3.0",
-    author: "xalman",
+    author: "Shishir ",
     countDown: 5,
     role: 0,
     shortDescription: { en: "Show owner information" },
@@ -33,18 +33,18 @@ module.exports = {
 ━━━━━━━━━━━━━━━━━━━━━
 
 👤 𝗔𝗕𝗢𝗨𝗧 𝗠𝗘:
-● Name: ${ownerName}
-● Age: ${ownerAge}
-● Relationship: ${relationship}
-● Religion: ${religion}
-● Address: ${address}
+● Name: ${𝐀𝐡𝐦𝐞𝐃'𝐬 𝐒𝐡𝐢'𝐬𝐡𝐢𝐫}
+● Age: ${17}
+● Relationship: ${singel}
+● Religion: ${Islam }
+● Address: ${Dhaka Mirpur }
 
 📞 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗗𝗘𝗧𝗔𝗜𝗟𝗦:
-● Facebook: ${fbName}
-● Fb Link: ${messenger}
-● WhatsApp: ${whatsapp}
-● Telegram: ${telegram}
-● API Server: ${apiServer}
+● Facebook: ${Yazaki }
+● Fb Link: ${https://www.facebook.com/share/191Xsd4dd8/}
+● WhatsApp: ${017493----26}
+● Telegram: ${Ahmed shishir}
+● API Server: ${Shishir Server}
 
 ⏰ 𝗗𝗔𝗧𝗘 & 𝗧𝗜𝗠𝗘 (𝗕𝗗):
 ● ${timeBD.format("DD MMMM, YYYY")}
