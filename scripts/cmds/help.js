@@ -3,13 +3,13 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "〲 𝗠𝗔𝗬𝗕𝗘 𝗡𝗫 〲";
+const doNotDelete = "〲AнмeD'ѕ Sнι'ѕнιr  〲";
 
 module.exports = {
  config: {
  name: "help",
  version: "2.0",
- author: "xalman",
+ author: "Shishir ",
  countDown: 3,
  role: 0,
  shortDescription: { en: "Neural Command Interface" },
@@ -22,7 +22,7 @@ module.exports = {
  langs: {
  en: {
    mainMenu: "╔════════════════════════════════════════════════════════════╗\n" +
-             "║                    ✦ 〲 𝗠𝗔𝗬𝗕𝗘 𝗡𝗫 〲 ✦                       ║\n" +
+             "║                    ✦ 〲 őẃńáŕ:AнмeD'ѕ Sнι'ѕнιr 〲 ✦                       ║\n" +
              "╠════════════════════════════════════════════════════════════╣\n" +
              "%1\n" +
              "╠════════════════════════════════════════════════════════════╣\n" +
@@ -45,7 +45,7 @@ module.exports = {
                   "📊 𝐌𝐀𝐓𝐂𝐇𝐄𝐒: %2  ⏱️ 𝐓𝐈𝐌𝐄: %3𝐦𝐬",
    
    commandInfo: "╔════════════════════════════════════════════════════════════╗\n" +
-                "║           🧬 𝗡𝗫 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 🧬           ║\n" +
+                "║           🧬  Sнι'ѕнιr 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 🧬           ║\n" +
                 "╠════════════════════════════════════════════════════════════╣\n" +
                 "║  🏷️ 𝗡𝗔𝗠𝗘: %1\n" +
                 "║  📝 𝗗𝗘𝗦𝗖: %2\n" +
@@ -197,7 +197,7 @@ module.exports = {
      config.version || "2.0",
      roleText,
      config.countDown || 1,
-     config.author || "xalman",
+     config.author || "shishir",
      usage.split("\n").map(line => `║  » ${line}`).join("\n"),
      doNotDelete
    );
