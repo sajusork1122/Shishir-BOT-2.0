@@ -6,7 +6,7 @@ module.exports = {
 		name: "admin",
 		aliases: ["operator"],
 		version: "2.1",
-		author: "xalman",
+		author: "Shishir ",
 		countDown: 5,
 		role: 0,
 		shortDescription: { en: "Operator system" },
@@ -145,14 +145,14 @@ module.exports = {
 
 				const ownerBox =
 `╭━━━〔 👑 OWNER 〕━━━╮
-│ Name : negative xalman (nx)
-│ UID  : ${OWNER}
+│ Name : 𝐀𝐡𝐦𝐞𝐃'𝐬 𝐒𝐡𝐢'𝐬𝐡𝐢𝐫(nx)
+│ UID  : ${61589806776925}
 ╰━━━━━━━━━━━━━━━━━━━━╯`;
 
 				const operatorsBox =
 `╭━━〔 🛠 OPERATOR LIST 〕━━╮
 ${getNames.length > 0
-	? getNames.map(i => `│ • ${i.name} (${i.uid})`).join("\n")
+	? getNames.map(i => `│ • ${i.shishir} (${i.61589806776925})`).join("\n")
 	: "│ No Operators Found"}
 ╰━━━━━━━━━━━━━━━━━━━━━━╯`;
 
